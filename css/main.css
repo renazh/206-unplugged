@@ -265,14 +265,6 @@ aside .content-wrapper {
   color: #cfd4d9;
 }
 
-.form-description {
-
-}
-
-.form {
-
-}
-
 aside .form {
   margin-top: 30px;
 }
@@ -322,17 +314,12 @@ input[type=button] {
   flex-flow: row wrap;
   text-align: center;
 }
-
+.features i {
+  font-size: 3.75em;
+  padding-bottom: 40px;
+}
 .features p {
   margin: 0;
-}
-
-.fontawesome-icon {
-
-}
-
-.feature-item-description {
-
 }
 
 /* Reviews Area */
@@ -372,10 +359,6 @@ input[type=button] {
   margin-bottom: 20px;
 }
 
-.mission-content {
-
-}
-
 .map figure {
   width: 100%;
   height: 0;
@@ -397,14 +380,6 @@ input[type=button] {
   align-items: center;
   flex-flow: row wrap;
   background-color: #2a423a;
-}
-
-.contact-section h2 {
-
-}
-
-.contact-content {
-
 }
 
 .contact-content p {
@@ -612,6 +587,10 @@ input[type=button] {
     align-items: center;
     flex-flow: row wrap;
   }
+  .features i {
+    font-size: 4.5em;
+    padding-bottom: 30px;
+  }
   .features .feature-item-description {
     width: 50%;
   }
@@ -757,7 +736,9 @@ input[type=button] {
     .features article {
       flex-basis: 33%;
     }
-
+    .features i {
+      padding-bottom: 35px;
+    }
   /* Reviews */
     .reviews h2 {
       padding-bottom: 98px;
