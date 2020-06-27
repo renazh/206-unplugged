@@ -124,10 +124,10 @@ p {
   line-height: 1.285em;
 }
 img {
-
+  width: 100%;
 }
 figure {
-
+  margin: 0;
 }
 address {
   font-style: normal;
@@ -160,6 +160,14 @@ header .content-wrapper {
   align-items: center;
   flex-flow: row wrap;
   margin: 0;
+}
+
+header figure {
+  width: 69%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .header-divider {
@@ -232,13 +240,16 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/hero-img.jpg') center no-repeat #333;
+  background-size: cover;
+  min-height: 500px;
 }
-
 .hero-area h1 {
   font-size: 2.25em;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   line-height: 1.2;
+  margin: 0;
 }
 
 /* Aside Area */
@@ -293,6 +304,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/features-bkgd.jpg') center no-repeat #333;
+  background-size: cover;
 }
 .features h2 {
   margin-bottom: 60px;
@@ -337,6 +350,12 @@ input[type=button] {
 .reviews h3 {
   width: 55%;
   margin: 20px 0;
+}
+.reviews figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap:
 }
 
 /***** About Page Styles *****/
@@ -521,6 +540,13 @@ input[type=button] {
     justify-content: space-around;
     padding: 30px 0;
   }
+  header figure {
+    width: 34%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+  }
   header .content-wrapper {
     width: 100%;
     justify-content: space-between;
@@ -536,9 +562,13 @@ input[type=button] {
     display: none;
   }
 /* Hero Area */
+  .hero-area {
+    min-height: 600px;
+  }
   .hero-area h1 {
     font-size: 3em;
     line-height: 1;
+    margin: 0
   }
 
 /* Aside */
@@ -588,8 +618,9 @@ input[type=button] {
     width: 75%;
     margin: 0;
   }
+  .reviews figure,
   .reviews article div {
-    width: 49%;
+    width: 48%;
   }
 
 /* Footer */
@@ -682,7 +713,13 @@ input[type=button] {
     header {
       padding: 25px 0;
     }
-
+    header figure {
+      width: 29%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap;
+    }
   /* Hero Area */
     .hero-area h1 {
       width: 75%;
@@ -709,6 +746,13 @@ input[type=button] {
   /* Reviews */
     .reviews h2 {
       padding-bottom: 98px;
+    }
+    .reviews figure {
+      width: 48%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-flow: row wrap:
     }
     .reviews article div {
       width: 42%;
