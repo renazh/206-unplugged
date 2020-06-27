@@ -274,7 +274,9 @@ aside {
 aside .content-wrapper {
   color: #cfd4d9;
 }
-
+aside h3 {
+  margin-top: 0;
+}
 aside .form {
   margin-top: 30px;
 }
@@ -310,7 +312,7 @@ input[type=button] {
   background-size: cover;
 }
 .features h2 {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 .features article {
@@ -341,6 +343,7 @@ input[type=button] {
 }
 
 .reviews h2 {
+  margin-top: 0;
   margin-bottom: 40px;
 }
 
@@ -367,6 +370,7 @@ input[type=button] {
 
 .mission h2 {
   margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .map figure {
@@ -425,6 +429,7 @@ input[type=button] {
 
 .faq h4 {
   line-height: 1.333;
+  margin: 0;
 }
 
 /* ==========================================================================
@@ -636,6 +641,7 @@ input[type=button] {
     flex-direction: row;
   }
   footer h4 {
+    margin-top: 0;
     margin-bottom: 40px;
     font-size: 1.5em;
   }
@@ -678,7 +684,9 @@ input[type=button] {
     align-items: center;
     padding-top: 20px;
   }
-
+  .mission h2 {
+    margin: 0;
+  }
   .mission-content p {
     width: 45%;
   }
@@ -689,6 +697,7 @@ input[type=button] {
 
   .contact-section .content-wrapper h2 {
     width: 80%;
+    margin: 0;
   }
 
   .contact-content {
@@ -755,6 +764,7 @@ input[type=button] {
   /* Reviews */
     .reviews h2 {
       padding-bottom: 98px;
+      margin: 0;
     }
     .reviews figure {
       width: 48%;
