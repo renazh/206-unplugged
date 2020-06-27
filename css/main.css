@@ -215,8 +215,11 @@ footer .content-wrapper {
 
 footer .contact {
   margin-bottom: 50px;
+  text-align: center;
 }
-
+footer .social h4 {
+  text-align: center;
+}
 footer .social-icons {
   display: flex;
   justify-content: space-around;
@@ -227,8 +230,15 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: #527158;
+  border-radius: 25px;
+  width: 40px;
+  height: 40px;
 }
-
+footer .social-icons i {
+  font-size: 1.125em;
+  color: #e2e3ed;
+}
 footer .copyright {
   margin: 20px 0;
 }
@@ -632,6 +642,9 @@ input[type=button] {
   footer .contact {
     margin-bottom: 0;
   }
+  footer .social {
+    width: 50%;
+  }
   footer p {
     line-height: 1.7;
   }
@@ -753,7 +766,10 @@ input[type=button] {
     .reviews article div {
       width: 42%;
     }
-
+  /* Footer */
+  footer .social {
+    width: 33%;
+  }
   /* FAQ */
     .faq h2 {
       width: 100%;
